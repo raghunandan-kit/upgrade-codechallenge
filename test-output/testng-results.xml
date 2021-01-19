@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-18T20:30:18 EST" name="Default suite" finished-at="2021-01-18T20:30:24 EST" duration-ms="5455">
+    <groups>
+    </groups>
+    <test started-at="2021-01-18T20:30:18 EST" name="Default test" finished-at="2021-01-18T20:30:24 EST" duration-ms="5455">
+      <class name="com.upgrade.tests.LoginService_POST_Request">
+        <test-method signature="PostloginRequest_ValidCredentials(java.lang.String, java.lang.String, int)[pri:0, instance:com.upgrade.tests.LoginService_POST_Request@57d7f8ca]" started-at="2021-01-18T20:30:18 EST" name="PostloginRequest_ValidCredentials" data-provider="loginrequestdata" finished-at="2021-01-18T20:30:23 EST" duration-ms="4508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coding.challenge.login@upgrade.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[On$3XcgsW#9q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostloginRequest_ValidCredentials -->
+        <test-method signature="PostloginRequest_ValidCredentials(java.lang.String, java.lang.String, int)[pri:0, instance:com.upgrade.tests.LoginService_POST_Request@57d7f8ca]" started-at="2021-01-18T20:30:23 EST" name="PostloginRequest_ValidCredentials" data-provider="loginrequestdata" finished-at="2021-01-18T20:30:24 EST" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid.user@upgrade.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[On$3XcgsW#9q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostloginRequest_ValidCredentials -->
+      </class> <!-- com.upgrade.tests.LoginService_POST_Request -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+com\upgrade\pages\SignupUpgradePage.class
+com\upgrade\pages\OfferPage.class
+com\upgrade\pages\BorrowerInformationPage.class
+com\upgrade\pages\LoginPage.class
+com\upgrade\utils\jsonReader.class
+com\upgrade\base\BaseClass.class
+com\upgrade\utils\UtilClass.class

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[******* Browser Session Started ******]]>
+    </line>
+    <line>
+      <![CDATA[******* Application Started ******]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Offer displayed during signup and after login is success.]]>
+    </line>
+    <line>
+      <![CDATA[******* Browser Session ended ******]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-18T20:43:36 EST" name="Regression Test Upgrade" finished-at="2021-01-18T20:44:20 EST" duration-ms="43568">
+    <groups>
+    </groups>
+    <test started-at="2021-01-18T20:43:36 EST" name="Regression" finished-at="2021-01-18T20:44:20 EST" duration-ms="43568">
+      <class name="com.upgrade.tests.LoginService_POST_Request">
+        <test-method signature="PostloginRequest_ValidCredentials(java.lang.String, java.lang.String, int)[pri:0, instance:com.upgrade.tests.LoginService_POST_Request@291caca8]" started-at="2021-01-18T20:43:36 EST" name="PostloginRequest_ValidCredentials" data-provider="loginrequestdata" finished-at="2021-01-18T20:43:40 EST" duration-ms="4200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coding.challenge.login@upgrade.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[On$3XcgsW#9q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostloginRequest_ValidCredentials -->
+        <test-method signature="PostloginRequest_ValidCredentials(java.lang.String, java.lang.String, int)[pri:0, instance:com.upgrade.tests.LoginService_POST_Request@291caca8]" started-at="2021-01-18T20:43:40 EST" name="PostloginRequest_ValidCredentials" data-provider="loginrequestdata" finished-at="2021-01-18T20:43:41 EST" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid.user@upgrade.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[On$3XcgsW#9q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostloginRequest_ValidCredentials -->
+      </class> <!-- com.upgrade.tests.LoginService_POST_Request -->
+      <class name="com.upgrade.tests.NewBorrowerFlowWeb_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.upgrade.tests.NewBorrowerFlowWeb_Test@385e9564]" started-at="2021-01-18T20:43:41 EST" name="setup" finished-at="2021-01-18T20:43:52 EST" duration-ms="10336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******* Browser Session Started ******]]>
+            </line>
+            <line>
+              <![CDATA[******* Application Started ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupFlowNewBorrowerUI(java.lang.String)[pri:0, instance:com.upgrade.tests.NewBorrowerFlowWeb_Test@385e9564]" started-at="2021-01-18T20:43:52 EST" name="signupFlowNewBorrowerUI" data-provider="signupdata" finished-at="2021-01-18T20:44:19 EST" duration-ms="27436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000,DEBT_CONSOLIDATION,John,Mayer,275 Battery Street-San Francisco-CA-94111-USA,01/04/1985,120001,5999,candidate892@upgrade-challenge.com,Winter@2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Validation of Offer displayed during signup and after login is success.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signupFlowNewBorrowerUI -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.upgrade.tests.NewBorrowerFlowWeb_Test@385e9564]" started-at="2021-01-18T20:44:19 EST" name="teardown" finished-at="2021-01-18T20:44:20 EST" duration-ms="684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******* Browser Session ended ******]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.upgrade.tests.NewBorrowerFlowWeb_Test -->
+    </test> <!-- Regression -->
+  </suite> <!-- Regression Test Upgrade -->
+</testng-results>

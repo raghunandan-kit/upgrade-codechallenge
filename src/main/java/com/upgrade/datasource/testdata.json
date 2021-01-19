@@ -1,0 +1,15 @@
+{
+	"TestData": [
+		{	"amount":"2000",
+			"purpose":"DEBT_CONSOLIDATION",
+			"firstName":"John",
+			"lastName":"Mayer",
+			"homeAddress":"275 Battery Street-San Francisco-CA-94111-USA",
+			"DOB":"01/04/1985",
+			"annualIncome":"120001",
+			"additonalIncome":"5999",
+			"email":"candidate892@upgrade-challenge.com",
+			"password":"Winter@2021"
+		 }
+	]
+}

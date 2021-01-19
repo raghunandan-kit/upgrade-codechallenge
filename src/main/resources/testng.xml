@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Regression Test Upgrade" verbose="1" >
+  <test name="Regression"   >
+    <packages>
+      <package name="com.upgrade.tests" />
+   </packages>
+ </test>
+</suite>
